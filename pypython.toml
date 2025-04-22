@@ -1,0 +1,14 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dhpackageutils"
+version = "0.0.1"
+authors = [
+  { name="DataHub", email="author@example.com" },
+]
+description = "Our etl script"
+readme = "README.md"
+requires-python = ">=3.9"
+
